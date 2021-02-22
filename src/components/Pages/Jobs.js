@@ -21,7 +21,7 @@ function Jobs() {
   });
 
   return (
-    <div>
+    <div className="job-div">
       <JobSelect setJob={setJob} selectedJob={job} />
       <JobResponsibility jobResponsibility={jobresponsibility} />
     </div>

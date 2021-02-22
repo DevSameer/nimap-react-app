@@ -3,6 +3,7 @@ import React from "react";
 function JobSelect({ setJob, selectedJob }) {
   return (
     <select
+      className="job-select"
       name="selectjob"
       value={selectedJob}
       onChange={(e) => setJob(e.target.value)}
